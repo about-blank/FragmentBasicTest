@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#765432"
+    tools:context="com.vishal.fragmentbasictest.com.vishal.fragmentbasictest.fragments.TestFragmentTwo">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Fragment-2" />
+
+    <EditText
+        android:id="@+id/msgBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Type your message"
+        android:text="" />
+
+    <Button
+        android:id="@+id/sendMessageBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:layout_below="@+id/msgBox2"
+        android:layout_alignLeft="@id/msgBox2"
+        android:layout_alignStart="@id/msgBox2"
+        android:layout_alignRight="@id/msgBox2"
+        android:layout_alignEnd="@id/msgBox2"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/msgTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/sendMessageBtn2"
+        android:layout_alignStart="@+id/sendMessageBtn2"
+        android:layout_below="@+id/sendMessageBtn2"
+        android:text="" />
+</RelativeLayout>
